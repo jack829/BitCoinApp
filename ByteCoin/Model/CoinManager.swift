@@ -28,7 +28,6 @@ struct CoinManager {
     }
     
     func sendRequest(urlString: String) {
-        print(urlString)
         if let url = URL(string: urlString) {
             let session = URLSession(configuration: .default)
             
